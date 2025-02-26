@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "components": "src",
+    "lib": "src",
+    "ui": "src"
+  }
+}

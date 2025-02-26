@@ -1,0 +1,44 @@
+{
+  "name": "@acme/rn-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "dev": "tsc",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "ui-add": "pnpm dlx @react-native-reusables/cli@latest add && prettier src --write --list-different"
+  },
+  "dependencies": {
+    "@rn-primitives/slot": "^1.1.0",
+    "@rn-primitives/switch": "^1.1.0",
+    "@rn-primitives/types": "^1.1.0",
+    "class-variance-authority": "catalog:",
+    "react": "catalog:react18",
+    "react-native": "catalog:react-native",
+    "react-native-reanimated": "catalog:react-native",
+    "tailwind-merge": "catalog:"
+  },
+  "devDependencies": {
+    "@acme/eslint-config": "workspace:*",
+    "@acme/prettier-config": "workspace:*",
+    "@acme/tailwind-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
+    "@types/react": "catalog:react18",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:react18",
+    "react-native": "catalog:react-native",
+    "react-native-reanimated": "catalog:react-native"
+  },
+  "prettier": "@acme/prettier-config"
+}
