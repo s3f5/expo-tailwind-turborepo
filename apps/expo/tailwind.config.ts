@@ -4,6 +4,6 @@ import baseConfig from "@acme/tailwind-config/native";
 import nativewind from "nativewind/preset";
 
 export default {
-  content: ["./src/**/*.{ts,tsx}", "../../packages/rn-ui/**/*.{ts,tsx}"],
+  content: ["./src/**/*.{ts,tsx}", "../../packages/rn-ui/src/**/*.{ts,tsx}"],
   presets: [baseConfig, nativewind],
 } satisfies Config;
