@@ -18,9 +18,9 @@
   "prettier": "@acme/prettier-config",
   "devDependencies": {
     "@acme/prettier-config": "workspace:*",
-    "@turbo/gen": "^2.4.2",
+    "@turbo/gen": "^2.4.4",
     "prettier": "catalog:",
-    "turbo": "^2.4.2",
+    "turbo": "^2.4.4",
     "typescript": "catalog:"
   },
   "packageManager": "pnpm@9.14.2",
