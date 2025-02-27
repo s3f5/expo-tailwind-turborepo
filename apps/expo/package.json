@@ -41,7 +41,7 @@
     "react-native-gesture-handler": "~2.24.0",
     "react-native-reanimated": "catalog:react-native",
     "react-native-safe-area-context": "~4.14.1",
-    "react-native-screens": "~4.4.0",
+    "react-native-screens": "~4.9.1",
     "react-native-svg": "15.8.0",
     "tailwind-merge": "catalog:"
   },
