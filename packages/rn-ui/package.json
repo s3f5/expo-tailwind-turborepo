@@ -18,12 +18,7 @@
   "dependencies": {
     "@rn-primitives/slot": "^1.1.0",
     "@rn-primitives/switch": "^1.1.0",
-    "@rn-primitives/types": "^1.1.0",
-    "class-variance-authority": "catalog:",
-    "react": "catalog:react18",
-    "react-native": "catalog:react-native",
-    "react-native-reanimated": "catalog:react-native",
-    "tailwind-merge": "catalog:"
+    "@rn-primitives/types": "^1.1.0"
   },
   "devDependencies": {
     "@acme/eslint-config": "workspace:*",
@@ -36,9 +31,11 @@
     "typescript": "catalog:"
   },
   "peerDependencies": {
+    "class-variance-authority": "catalog:",
     "react": "catalog:react18",
     "react-native": "catalog:react-native",
-    "react-native-reanimated": "catalog:react-native"
+    "react-native-reanimated": "catalog:react-native",
+    "tailwind-merge": "catalog:"
   },
   "prettier": "@acme/prettier-config"
 }
