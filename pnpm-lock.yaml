@@ -80,8 +80,8 @@ importers:
         specifier: ^0.19.11
         version: 0.19.11
       '@gorhom/bottom-sheet':
-        specifier: ^5.1.1
-        version: 5.1.1(@types/react@18.3.18)(react-native-gesture-handler@2.24.0(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-reanimated@3.16.7(@babel/core@7.26.0)(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)
+        specifier: ^5.1.2
+        version: 5.1.2(@types/react@18.3.18)(react-native-gesture-handler@2.24.0(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-reanimated@3.16.7(@babel/core@7.26.0)(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)
       '@tanstack/react-query':
         specifier: ^5.67.2
         version: 5.67.2(react@18.3.1)
@@ -1237,8 +1237,8 @@ packages:
     resolution: {integrity: sha512-ReZxZ8pdnoI3tP/dNnJdnmAk7uLT4FjsKDGW7YeDdvdOMz2XCQSmSCM9IWlrXuWtMF9zeSB6WJtEhCQ41gQOfw==}
     hasBin: true
 
-  '@gorhom/bottom-sheet@5.1.1':
-    resolution: {integrity: sha512-Y8FiuRmeZYaP+ZGQ0axDwWrrKqVp4ByYRs1D2fTJTxHMt081MHHRQsqmZ3SK7AFp3cSID+vTqnD8w/KAASpy+w==}
+  '@gorhom/bottom-sheet@5.1.2':
+    resolution: {integrity: sha512-5np8oL2krqAsVKLRE4YmtkZkyZeFiitoki72bEpVhZb8SRTNuAEeSbP3noq5srKpcRsboCr7uI+xmMyrWUd9kw==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-native': '*'
@@ -7028,7 +7028,7 @@ snapshots:
       find-up: 5.0.0
       js-yaml: 4.1.0
 
-  '@gorhom/bottom-sheet@5.1.1(@types/react@18.3.18)(react-native-gesture-handler@2.24.0(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-reanimated@3.16.7(@babel/core@7.26.0)(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)':
+  '@gorhom/bottom-sheet@5.1.2(@types/react@18.3.18)(react-native-gesture-handler@2.24.0(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-reanimated@3.16.7(@babel/core@7.26.0)(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@gorhom/portal': 1.0.14(react-native@0.76.7(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)
       invariant: 2.2.4
