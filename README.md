@@ -1,9 +1,5 @@
 # Expo + Tailwind + React Native Reusables + Turborepo
 
-> [!NOTE]
->
-> In progress
-
 ## What's This?
 
 Need a jumpstart for your Expo projects? This is a pre-built setup with all the common tools you'll likely need.
