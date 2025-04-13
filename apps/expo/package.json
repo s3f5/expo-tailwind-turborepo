@@ -20,7 +20,7 @@
     "@bacons/text-decoder": "^0.0.0",
     "@expo/metro-config": "^0.19.12",
     "@gorhom/bottom-sheet": "^5.1.2",
-    "@tanstack/react-query": "^5.72.2",
+    "@tanstack/react-query": "^5.73.3",
     "class-variance-authority": "catalog:",
     "expo": "~52.0.44",
     "expo-constants": "~17.0.8",
