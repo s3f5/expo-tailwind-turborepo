@@ -31,7 +31,7 @@
     "expo-router": "~4.0.20",
     "expo-splash-screen": "~0.29.24",
     "expo-status-bar": "~2.0.1",
-    "i18next": "^24.2.3",
+    "i18next": "^25.5.2",
     "lucide-react-native": "^0.503.0",
     "nativewind": "catalog:react-native",
     "react": "catalog:react18",
